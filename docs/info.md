@@ -15,7 +15,7 @@ to get going with their own designs.
 The idea is to allow them to understand some ASIC design and digital circuitry basics by showing some ideas
 and design elements they might want to use in their own designs - and also discussing some pitfalls to avoid.
 
-Wokwi URL: https://wokwi.com/projects/458497226166424577
+Wokwi URL: [https://wokwi.com/projects/459285910800527361](https://wokwi.com/projects/459285910800527361)
 
 The description on the Wokwi page contains some exercises for students to go through.
 
