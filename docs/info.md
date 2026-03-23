@@ -9,12 +9,28 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is mostly an educational placeholder wokwi project, intended as a starting point for Swiss high school students
+to get going with their own designs.
+
+The idea is to allow them to understand some ASIC design and digital circuitry basics by showing some ideas
+and design elements they might want to use in their own designs - and also discussing some pitfalls to avoid.
+
+Wokwi URL: https://wokwi.com/projects/458497226166424577
+
+The description on the Wokwi page contains some exercises for students to go through.
 
 ## How to test
 
-Explain how to use your project
+The circuit consists of two parts - a simple 4-bit binary counter, plus logic to store data in two 4-bit
+"registers" and retrieve it from there. The Wokwi project page has details.
 
-## External hardware
+As a brief summary:
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The first four output pins should simply count through 0000-1111, one step per clock cycle.
+The outputs shown on the other four output pins are controlled by IN0,IN1,IN2,IN7, which can be used
+to store data in the two 4-bit registers and also retrieve them from there.
+
+Setting IN0-IN2 to 011 makes register A store the value available on IN3-IN6.
+Setting IN0-IN2 to 110 makes register B store the value available on IN3-IN6.
+Setting IN0-IN2 to 111 makes the OUT4-OUT7 show register A if IN7 is 0, and register B if IN7 is 1.
+
