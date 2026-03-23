@@ -1,8 +1,8 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     459285910800527361       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "4-Bit Counter and Registers Demo"      # Project title
-  author:       "Thomas Fischbacher"      # Your name
+  wokwi_id:     459305390020304897       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "74181 Variant ALU Demo"      # Project title
+  author:       "Thomas Fischbacher (with Students)"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Educational Wokwi Demo"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
@@ -16,24 +16,24 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "OP0"
-  ui[1]: "OP1"
-  ui[2]: "OP2"
-  ui[3]: "DI0"
-  ui[4]: "DI1"
-  ui[5]: "DI2"
-  ui[6]: "DI3"
-  ui[7]: "SEL0"
+  ui[0]: "IN0"
+  ui[1]: "IN1"
+  ui[2]: "IN2"
+  ui[3]: "IN3"
+  ui[4]: "IN4"
+  ui[5]: "IN5"
+  ui[6]: "IN6"
+  ui[7]: "IN7"
 
   # Outputs
-  uo[0]: "C0"
-  uo[1]: "C1"
-  uo[2]: "C2"
-  uo[3]: "C3"
-  uo[4]: "DO0"
-  uo[5]: "DO1"
-  uo[6]: "DO2"
-  uo[7]: "DO3"
+  uo[0]: "O0"
+  uo[1]: "O1"
+  uo[2]: "O2"
+  uo[3]: "O3"
+  uo[4]: "O4"
+  uo[5]: "O5"
+  uo[6]: "O6"
+  uo[7]: "O7"
 
   # Bidirectional pins (we do not have any in this design)
   uio[0]: ""
