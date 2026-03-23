@@ -1,8 +1,8 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Wokwi Project Template
+# Tiny Tapeout Wokwi Project for Suttle IHP26a: 4-Bit Counter and Registers Demo
 
-- [Read the documentation for project](docs/info.md)
+- [The documentation for this project](docs/info.md)
 
 ## What is Tiny Tapeout?
 
@@ -12,7 +12,16 @@ To learn more and get started, visit https://tinytapeout.com.
 
 ## Wokwi Projects
 
-Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.
+Steps for submitting a project to TinyTapeout:
+
+* Cloning the appropriate template GitHub repository from the TinyTapeout web page.
+  (For IHP26a: [https://github.com/TinyTapeout/ttihp-wokwi-template](https://github.com/TinyTapeout/ttihp-wokwi-template)) 
+* Adjusting [docs/info.md](docs/info.md), adding project documentation.
+* Adjusting [README.md](README.md) (this file)
+* Adjusting [info.yaml](info.yaml):
+
+  * Changing the `wokwi_id` to the ID of the Wokwi project to be submitted.
+    This is the number part of the wokwi URL after `wokwi.com/projects/`.
 
 The GitHub action will automatically fetch the digital netlist from Wokwi and build the ASIC files.
 
@@ -27,12 +36,3 @@ The GitHub action will automatically fetch the digital netlist from Wokwi and bu
 - [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
 - [Join the community](https://tinytapeout.com/discord)
 - [Build your design locally](https://www.tinytapeout.com/guides/local-hardening/)
-
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
