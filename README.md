@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Wokwi Project for Suttle IHP26a: 4-Bit Counter and Registers Demo
+# Tiny Tapeout Wokwi Project for Suttle IHP26a: 4-Bit Counter Demo
 
 - [The documentation for this project](docs/info.md)
 
