@@ -7,8 +7,6 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
-# NOTE: Outdated documentation below - we last-minute (literally) got our "big" wokwi design to work.
-
 ## How it works
 
 This is mostly an educational placeholder wokwi project, intended as a starting point for Swiss high school students
